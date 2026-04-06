@@ -3,7 +3,7 @@ uvicorn==0.30.0
 deepface==0.0.93
 opencv-python-headless==4.10.0.84
 numpy==1.26.4
-faiss-cpu==1.8.0
+faiss-cpu==1.13.2
 requests==2.32.3
 python-multipart==0.0.9
 cloudinary==1.41.0
