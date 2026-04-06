@@ -1,0 +1,27 @@
+.navbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 2rem; height: 64px;
+  background: var(--navy);
+  border-bottom: 3px solid #c8a84b;
+  position: sticky; top: 0; z-index: 100;
+  gap: 1rem;
+}
+.nav-brand { display: flex; align-items: center; gap: 10px; cursor: pointer; flex-shrink: 0; }
+.nav-logo { width: 38px; height: 38px; background: #c8a84b; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+.logo-emblem { font-size: 20px; color: var(--navy); }
+.nav-title-en { font-size: 15px; font-weight: 800; color: #fff; letter-spacing: 0.01em; line-height: 1.2; }
+.nav-title-ta { font-size: 11px; color: #c8a84b; font-weight: 500; line-height: 1.2; }
+.nav-links { display: flex; align-items: center; gap: 0.25rem; }
+.nav-link { padding: 6px 14px; border-radius: 6px; color: #cbd5e0; font-size: 13px; font-weight: 500; transition: all 0.15s; }
+.nav-link:hover { background: rgba(255,255,255,0.08); color: #fff; }
+.nav-actions { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
+.nav-user { display: flex; align-items: center; gap: 8px; padding: 4px 10px; border-radius: 8px; background: rgba(255,255,255,0.06); transition: background 0.15s; }
+.nav-user:hover { background: rgba(255,255,255,0.1); }
+.nav-avatar { width: 28px; height: 28px; background: #c8a84b; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--navy); }
+.nav-username { font-size: 13px; color: #fff; font-weight: 500; }
+.nav-role { font-size: 10px; padding: 1px 6px; border-radius: 4px; font-weight: 600; text-transform: uppercase; }
+.nav-role.admin   { background: #7c3aed20; color: #c4b5fd; }
+.nav-role.officer { background: #1d4ed820; color: #93c5fd; }
+.nav-role.public  { background: #05785520; color: #6ee7b7; }
+.nav-logout { font-size: 12px !important; padding: 5px 12px !important; border-color: rgba(255,255,255,0.15) !important; color: #a0aec0 !important; }
+.nav-logout:hover { border-color: rgba(255,255,255,0.3) !important; color: #fff !important; }
