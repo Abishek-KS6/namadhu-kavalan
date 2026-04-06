@@ -1,12 +1,12 @@
 fastapi==0.115.0
 uvicorn==0.30.0
-deepface==0.0.93
+deepface==0.0.99
 opencv-python-headless==4.10.0.84
-numpy==1.26.4
+numpy==2.1.0
 faiss-cpu==1.13.2
 requests==2.32.3
 python-multipart==0.0.9
 cloudinary==1.41.0
 pillow==10.4.0
-tensorflow-cpu==2.16.2
-tf-keras==2.16.0
+tensorflow-cpu==2.21.0
+tf-keras==2.21.0
