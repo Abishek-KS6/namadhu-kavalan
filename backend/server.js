@@ -17,7 +17,8 @@ const server = http.createServer(app);
 
 const ALLOWED_ORIGINS = [
   'http://localhost:3000',
-  process.env.FRONTEND_URL || 'http://localhost:3000',
+  'https://namadhu-kavalan.vercel.app',
+  'https://namadhu-kavalan-oygfa9ddo-abisheks-projects-2c5b0f60.vercel.app',
 ];
 
 const io = new Server(server, {
